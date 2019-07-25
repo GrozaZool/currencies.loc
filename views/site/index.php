@@ -7,18 +7,20 @@ $this->title = 'My Yii Application';
 <div class="site-index">
 
     <div class="body-content">
+	
 		<h2>Курсы валют!</h2>
+		
 		<div class="row">
-				<div class="col-md-3 bold">
-					ВАЛЮТА
-				</div>
-				<div class="col-md-3 bold">
-					НАИМЕНЬШАЯ
-				</div>
-				<div class="col-md-6 bold">
-					НАИБОЛЬШАЯ
-				</div>
+			<div class="col-md-3 bold">
+				ВАЛЮТА
 			</div>
+			<div class="col-md-3 bold">
+				НАИМЕНЬШАЯ
+			</div>
+			<div class="col-md-6 bold">
+				НАИБОЛЬШАЯ
+			</div>
+		</div>
 		
 		<?php foreach ($data as $key => $value): ?>
 			<div class="row">
