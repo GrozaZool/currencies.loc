@@ -1,0 +1,8 @@
+User-Agent: LinkpadBot/1.12
+Disallow: /
+
+User-Agent: SemrushBot/1.2~bl 
+Disallow: /
+
+User-Agent: AhrefsBot/5.2 
+Disallow: /
